@@ -1,0 +1,30 @@
+@media (min-width: 1024px) {
+
+
+  .section-two {
+    .section-two-layout {
+      display: flex;
+      justify-content: space-around;
+      max-width: 100%;
+    }
+  }
+
+}
+@media (min-width: $tablet) {
+
+
+  .section-two {
+    .section-two-layout {
+      display: flex;
+      justify-content: space-around;
+      max-width: 100%;
+      align-items: center;
+
+      .object-wrap {
+        padding: 4rem;
+      }
+    }
+  }
+
+}
+

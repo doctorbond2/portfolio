@@ -1,0 +1,56 @@
+
+
+  .header-wrapper {
+    background-color: $secondary-color;
+    display: flex;
+    width: 100%;
+    height: 3.3rem;
+    justify-content: center;
+    
+
+    .header-section {
+      display: inherit;
+      background-color: $primary-color;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: $laptop;
+      border-bottom: solid 1px black;
+      position: fixed;
+      z-index: 1000;
+      height: inherit;
+
+      .nav-wrapper {
+        border: solid 2px black;
+        font-family: $font-stack;
+        margin-right: 0.5em;
+        display: flex;
+        justify-content: space-around;
+        width: 20%;
+        height: 100%;
+        align-items: center;
+      }
+      .social-button {
+        border: none;
+        border-radius: 10%;
+        box-shadow: 0 0 3px 1px white;
+        padding: 1px;
+        background-color: transparent;
+      }
+      .button-icon {
+        height: 20px;
+        width: 20px;
+      }
+      
+    }
+  }
+
+h1 {
+  padding: 0.5em;
+  font-family: head;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 2px gold;
+}
+
+
+
